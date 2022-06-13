@@ -4,6 +4,9 @@ body{
     background-color: black;
    
 }
+.fixed-top{
+    transition: 1s;
+}
 .nav-item .nav-link{
     color: #fff;
     font-family: 'Anton', sans-serif;
@@ -60,15 +63,14 @@ body{
 #portifolio h1{
     font-family: 'Anton', sans-serif;  
     color: #fff;
+    font-weight: 500;
 }
 #portifolio p {
     color: #fff;
+    font-family: 'Oswald', sans-serif; 
+    font-weight: 300;
 }
-#portifolio span{
-    font-family: 'Oswald', sans-serif;  
-    font-weight:  200px;;
-    color: #dddddd71;
-}
+
 #portifolio .borda{
     border: 1px solid;
     border-color:#dddddd71;
@@ -83,27 +85,10 @@ body{
 .projetos{
     padding-top: 100px;
 }
-.filter-button
-{
-    font-size: 18px;
-    border: 1px solid #dddddd71;
-    border-radius: 5px;
-    text-align: center;
-    color: #fff;
-    margin-bottom: 30px;
 
-}
-.filter-button:hover
-{
-    font-size: 18px;
-   
-    border-radius: 5px;
-    text-align: center;
-    color: #ffffff;
-    background-color: #dddddd71;
 
-}
-.btn{
+#btn-portifolio{
+    padding-bottom: 100px;
     font-family: 'Anton', sans-serif;
 }
 
