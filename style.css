@@ -23,10 +23,10 @@ body{
     
 }
 
+
 #header{
     padding-top: 280px;
    
-    
 }
 
 #header h1{
@@ -42,12 +42,24 @@ body{
 }
 #header button{
     font-family: 'Oswald', sans-serif;
+    border-radius: 0;
+    border:none;
+    font-size: 20px;
+   
 }
+
+
+
+   
 
 #header button:hover{
    color: #000000;
-    background-color: #d4d4d4;
-    transition: 1s;
+    background-color:#fff;
+    
+}
+
+#btn-portifolio button:focus{
+    opacity: 0.5;
     
 }
 
@@ -94,6 +106,15 @@ body{
 #btn-portifolio{
     padding-bottom: 100px;
     font-family: 'Anton', sans-serif;
+
+}
+#btn-portifolio button{
+    border: none;
+    border-radius: 0;
+}
+#btn-portifolio button:hover{
+    color: #000000;
+    background-color:#fff;
 }
 
 .port-image
