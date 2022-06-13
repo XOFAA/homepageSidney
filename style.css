@@ -38,7 +38,7 @@ body{
    
     
     text-shadow: 
-    -8px -6px 1px #000, -8px -6px 1px #000000;
+    2px 2px 0px #000000b3, 0 0px 1px #000000;
 }
 #header button{
     font-family: 'Oswald', sans-serif;
