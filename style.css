@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+body{
+    background-color: black;
+   
+}
+.nav-item .nav-link{
+    color: #fff;
+    font-family: 'Anton', sans-serif;
+    font-size: 20px;
+}
+
+.nav-item .nav-link:hover{
+    color:#000000;
+    
+    
+}
+
+#header{
+    padding-top: 70px;
+    
+}
+#header h1{
+    color: #fff;
+    font-size: 100px;
+    font-family: 'Oswald', sans-serif;
+   font-weight: 200;
+}
+#header button{
+    border-radius: 50px;
+    background-color:transparent;
+    border-color: #d4d4d4;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #d4d4d4;
+    font-family: 'Oswald', sans-serif; 
+    font-weight: 500;
+}
+
+#header button:hover{
+   color: #000000;
+    background-color: #d4d4d4;
+    transition: 1s;
+}
+
+
+#background-menu{
+    background-image: url(./assets/img-sidney/PHOTO-2021-07-27-01-22-20.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+}
+.portifolio-textos{
+    padding-top: 100px;
+}
+
+#portifolio h1{
+    font-family: 'Anton', sans-serif;  
+    color: #fff;
+}
+#portifolio p {
+    color: #fff;
+}
+#portifolio span{
+    font-family: 'Oswald', sans-serif;  
+    font-weight:  200px;;
+    color: #dddddd71;
+}
+#portifolio .borda{
+    border: 1px solid;
+    border-color:#dddddd71;
+    width: 80px;
+}
+
+/*Background */
+
+
+/* Galeria*/ 
+
+.projetos{
+    padding-top: 100px;
+}
+.filter-button
+{
+    font-size: 18px;
+    border: 1px solid #dddddd71;
+    border-radius: 5px;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 30px;
+
+}
+.filter-button:hover
+{
+    font-size: 18px;
+   
+    border-radius: 5px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #dddddd71;
+
+}
+
+.port-image
+{
+    width: 100%;
+}
+
+.gallery_product
+{
+    margin-bottom: 30px;
+}
+
+.gallery_product img{
+   
+    width: 365px;
+    height: 365px;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+.gallery_product img:hover{
+    transition: 0.6s;
+    box-shadow: -5px -5px 30px 5px rgb(255, 255, 255), 5px 5px 10px 5px rgb(0, 0, 0);
+}
