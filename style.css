@@ -33,6 +33,9 @@ body{
     font-size: 90px;
     font-family: 'Oswald', sans-serif;
     font-weight: 400;
+    
+    color: #fff;
+    text-shadow: -15px 5px 20px #ced0d3;
 }
 #header button{
     font-family: 'Oswald', sans-serif;
