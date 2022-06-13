@@ -12,6 +12,9 @@ body{
     font-family: 'Anton', sans-serif;
     font-size: 20px;
 }
+.logo-nav img{
+    width: 250px;
+}
 
 .nav-item .nav-link:hover{
     color:#000000;
@@ -50,7 +53,7 @@ body{
 
 
 #background-menu{
-    background-image: url(./assets/img-sidney/PHOTO-2021-07-27-01-22-20.jpg);
+    background-image: url(./assets/img-sidney/img-menu.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -58,6 +61,7 @@ body{
 }
 .portifolio-textos{
     padding-top: 100px;
+    
 }
 
 #portifolio h1{
