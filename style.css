@@ -19,8 +19,31 @@ body{
 .nav-item .nav-link:hover{
     color:#000000;
     background-color: #fff;
-    
-    
+     
+}
+
+@media (max-width: 600px)
+{
+    #header h1{
+        font-size: 50px !important;
+    }
+    .background-menu{
+        height:100% !important;
+        background-position:top !important;
+        background-repeat: no-repeat;
+        background-size: cover !important;
+    }
+    .navbar-nav{
+        text-align: center;
+    }
+    #btn-portifolio button{
+      
+      margin-left: 0 !important;
+    }
+}
+
+.navbar-toggler{
+    background-color: #fff;
 }
 
 
@@ -64,7 +87,7 @@ body{
 }
 
 
-#background-menu{
+.background-menu{
     background-image: url(./assets/img-sidney/img-menu.jpg);
     background-position: initial;
     background-repeat: no-repeat;
