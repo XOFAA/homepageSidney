@@ -23,7 +23,7 @@ body{
     background-color: #fff;
      
 }
-@media (max-width: 1024px)
+@media (min-width: 1024px)
 {
     #header h1{
         font-size: 60px !important;
@@ -35,9 +35,16 @@ body{
         height: 500px !important;
     }
     .gallery_product img{
-        width: 265px !important;
-        height: 265px !important;
+        width: 300px !important;
+        height: 300px !important;
     }
+}
+@media (max-width: 400px){
+    .gallery_product img{
+        width: 320px !important;
+        height: 320px !important;
+    }
+
 }
 @media (max-width: 600px)
 {
@@ -190,4 +197,40 @@ body{
   
 }
 
-/* MODAL */
+#titulo-servicos{
+    padding-top: 100px;
+}
+#titulo-servicos h1{
+    font-family: 'Anton', sans-serif;
+    color: #fff;
+    font-weight: 500;
+}
+#titulo-servicos p {
+    font-family: 'Oswald', sans-serif;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+#servicos{
+    margin-top: 100px; 
+}
+#borda-coluna-servicos{
+    border: 1px solid;
+    height: 300px;
+    
+    
+}
+
+#servicos h4{
+    font-family: 'Anton', sans-serif;
+    color:#fff;
+    font-size: 20px;
+    font-weight: 500;
+}
+#servicos p{
+    font-family: 'Oswald', sans-serif;
+   color:#fff;
+   font-size: 15px;
+   font-weight: 300;
+}
