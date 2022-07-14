@@ -207,42 +207,137 @@
       <section class="Meus-Serviços">
         <div class="container text-center" id="titulo-servicos">
           <h1 class="">Serviços</h1>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus minima reiciendis ratione.</p>
+          <p class="mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus minima reiciendis ratione.</p>
           </div>
         <div class="container" id="servicos" >
           <div class="row">
             
               <div class="col-md-3 text-center">
-                <div class="container" id="borda-coluna-servicos">
-                <h4 class="">Imagens Aéreas</h4>
-                <p>Captação de imagens aéreas com Drone para composição de vídeos imobiliários, institucionais, Pré Wedding, etc</p>
+                <div class="container" id="coluna-servicos">
+                  <img src="assets/icons/camera-drone.png" alt="">
+                <h4 class="mt-4">Imagens Aéreas</h4>
+                <p class="mt-3">Captação de imagens aéreas com Drone para composição de vídeos imobiliários, institucionais, Pré Wedding, etc</p>
               
             </div>
             </div>
         
             
             <div class="col-md-3 text-center">
-              <div class="container" id="borda-coluna-servicos">
-              <h4>Direção Criativa</h4>
-              <p> Roteirização, direção e finalização de projetos comerciais</p>
+              <div class="container" id="coluna-servicos">
+                <img src="./assets/icons/videography.png" alt="">
+              <h4 class="mt-4">Direção Criativa</h4>
+              <p class="mt-3"> Roteirização, direção e finalização de projetos comerciais</p>
             </div>
             </div>
             <div class="col-md-3 text-center">
-              <div class="container" id="borda-coluna-servicos">
-              <h4>Cobertura de Eventos Sociais</h4>
-              <p>Serviço de Captação e edição de vídeos para eventos como: Casamentos, Aniversários, Shows, 15 anos, Feiras de negócios entre outros.</p>
+              <div class="container" id="coluna-servicos">
+                <img src="./assets/icons/conferencia-on-line.png" alt="">
+              <h4 class="mt-4">Cobertura de Eventos Sociais</h4>
+              <p class="mt-3">Serviço de Captação e edição de vídeos para eventos como: Casamentos, Aniversários, Shows, 15 anos, Feiras de negócios entre outros.</p>
             </div>
           </div>
             <div class="col-md-3 text-center">
-              <div class="container" id="borda-coluna-servicos">
-              <h4>Gravação e edição de Cursos On-line
+              <div class="container" id="coluna-servicos">
+                <img src="./assets/icons/clapperboard.png" alt="">
+              <h4 class="mt-4">Gravação e edição de Cursos On-line
               </h4>
-              <p>Serviço de gravação e edição de conteúdo digital para cursos on line.  Com iluminação e áudios profissionais, direção criativa e muito mais.</p>
+              <p class="mt-3">Serviço de gravação e edição de conteúdo digital para cursos on line.  Com iluminação e áudios profissionais, direção criativa e muito mais.</p>
             </div>
           </div>
           </div>
         </div>
       </section>
+      
+      <section class="sobre-mim">
+        
+        <div class="container text-center" id="titulo-sobre">
+          <h1>Sobre Mim</h1>
+          <p class="mt-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex non ducimus libero architecto omnis voluptatibus!</p>
+          <div class="row">
+            <div class="col-md-6" id="img-sobre">
+              <img src="./assets/img-sidney/img-sobre.JPG" alt="">
+            </div>
+            <div class="col-md-6" id="texto-sobre-mim">
+              <h4>Hello, I Am Forhad Hossain</h4>
+              <p class="mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, maiores facere. Molestias quod adipisci suscipit consequatur reiciendis voluptates quae, laborum mollitia fuga repudiandae ipsa aut veniam numquam aliquid maxime placeat.</p>
+              <button class="btn btn-dark mt-4 animate__animated animate__backInRight animate__delay-1s me-3">Conheça meu trabalho</button> 
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact">
+  
+        <h1 class="section-header">Contate-me</h1>
+        
+        <div class="contact-wrapper">
+        
+        <!-- Left contact page --> 
+          
+          <form id="contact-form" class="form-horizontal" role="form">
+             
+            <div class="form-group">
+              <div class="col-sm-12">
+                <input type="text" class="form-control" id="name" placeholder="NOME" name="name" value="" required>
+              </div>
+            </div>
+      
+            <div class="form-group">
+              <div class="col-sm-12">
+                <input type="email" class="form-control" id="email" placeholder="EMAIL" name="email" value="" required>
+              </div>
+            </div>
+      
+            <textarea class="form-control" rows="10" placeholder="MENSSAGEM" name="message" required></textarea>
+            
+            <button class="btn btn-primary send-button" id="submit" type="submit" value="SEND">
+              <div class="alt-send-button">
+                <i class="fa fa-paper-plane"></i><span class="send-text">SEND</span>
+              </div>
+            
+            </button>
+            
+          </form>
+          
+        <!-- Left contact page --> 
+          
+            <div class="direct-contact-container">
+      
+              <ul class="contact-list">
+                <li class="list-item"><i class="fa fa-map-marker fa-2x"><span class="contact-text place">City, State</span></i></li>
+                
+                <li class="list-item"><i class="fa fa-phone fa-2x"><span class="contact-text phone"><a href="tel:1-212-555-5555" title="Give me a call">(212) 555-2368</a></span></i></li>
+                
+                <li class="list-item"><i class="fa fa-envelope fa-2x"><span class="contact-text gmail"><a href="mailto:#" title="Send me an email">hitmeup@gmail.com</a></span></i></li>
+                
+              </ul>
+      
+              <hr>
+              <ul class="social-media-list">
+                <li><a href="#" target="_blank" class="contact-icon">
+                  <i class="fa fa-github" aria-hidden="true"></i></a>
+                </li>
+                <li><a href="#" target="_blank" class="contact-icon">
+                  <i class="fa fa-codepen" aria-hidden="true"></i></a>
+                </li>
+                <li><a href="#" target="_blank" class="contact-icon">
+                  <i class="fa fa-twitter" aria-hidden="true"></i></a>
+                </li>
+                <li><a href="#" target="_blank" class="contact-icon">
+                  <i class="fa fa-instagram" aria-hidden="true"></i></a>
+                </li>       
+              </ul>
+              <hr>
+      
+              <div class="copyright">&copy; ALL OF THE RIGHTS RESERVED</div>
+      
+            </div>
+          
+        </div>
+        
+      </section>  
+        
+        
   
 
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
@@ -250,6 +345,14 @@
       <script></script>
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
       <script>
+        document.querySelector('#contact-form').addEventListener('submit', (e) => {
+    e.preventDefault();
+    e.target.elements.name.value = '';
+    e.target.elements.email.value = '';
+    e.target.elements.message.value = '';
+  });
+      </script>
+     <script>
         document.addEventListener("DOMContentLoaded", function(){
   window.addEventListener('scroll', function() {
       if (window.scrollY > 50) {
