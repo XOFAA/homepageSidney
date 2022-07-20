@@ -249,9 +249,7 @@ hr{
 }
 
 /*/contador /*/
-.fundo-counter{
- 
-}
+
 .counter{
   padding-top: 150px;
     color: #fff;
@@ -298,19 +296,42 @@ font-size: 20px;
 }
 
 #img-sobre img{
-    margin-top: 100px;
+    margin-top: 200px;
     width: 400px;
     height: 400px;
     box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
 }
 #texto-sobre-mim{
-    margin-top: 100px;
+    margin-top: 250px;
 }
 
 #texto-sobre-mim p{
      letter-spacing: 0;
 }
 
+
+.contate-me{
+    padding-top: 200px;
+    color: #fff;
+    font-family: 'Anton', sans-serif;
+ 
+    font-weight: 500;
+   
+}
+.hr-contate-me{
+    margin-left: 0px;
+    width: 50% !important;
+   
+}
+
+#form-contato{
+    padding-top: 100px;
+
+}
+
+#sociais-contato{
+    padding-top: 100px;
+}
 
 .form-control{
   width: 80% !important;
@@ -328,11 +349,49 @@ textarea.form-control{
   
 }
 
+
+
 .botao-form-contato{
-  height: 30px;
+  height: 50px;
   width: 80%;
   border-radius: 5px;
   background-color: #212529;
 }
+.botao-form-contato:active{
+    
+    transform: scale(1.001);
+    cursor: pointer;
+}
+  
+.botao-form-contato img{
+    width: 25px;
+    height: 25px;
+}
 
+.contato-lista li {
+    list-style: none;
+    padding-top: 20px;
+}
+.contato-lista li a{
+    margin-left: 50px;
+    text-decoration: none;
+    color: #fff;
+ 
+}
 
+.contato-botao{
+   display: flex;
+   gap: 10px;
+}
+.contato-botao li {
+ list-style: none;
+}
+.contato-botao button{
+    width: 60px;
+    height: 60px;
+    border-radius: 100px;
+}
+
+#sticky-footer{
+  margin-top: 350px;
+}
