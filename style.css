@@ -188,15 +188,15 @@ hr{
     margin-bottom: 30px;
 }
 
-.gallery_product img{
+.gallery_product .Videos{
    
-    width: 365px;
-    height: 365px;
+    width: 365px !important;
+    height: 365px !important;
    
 }
-.gallery_product img:hover{
+.gallery_product .Videos:hover{
     transition: 0.6s;
-    transform: scale(1.10);
+    opacity: 0.5;
     cursor: pointer;
   
 }
